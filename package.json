@@ -17,9 +17,8 @@
   },
   "devDependencies": {
     "typescript": "^5.2.2",
-    "typescript-transform-paths": "^3.4.6"
-  },
-  "dependencies": {
-    "ts-patch": "^3.0.2"
+    "typescript-transform-paths": "^3.4.6",
+    "ts-patch": "^3.0.2",
+    "ts-node": "^10.9.1"
   }
 }
