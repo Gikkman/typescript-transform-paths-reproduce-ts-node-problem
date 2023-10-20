@@ -4,7 +4,7 @@ Run `npm install`
 
 # Through ts-node
 First, run `npm run dev:a`. This will throw an exception, and the output will show:
-> Error: Cannot find module '../util/main'
+> Error: Cannot find module '../util/tool'
 
 Then, run `npm run dev:b`. This will work
 

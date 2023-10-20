@@ -1,4 +1,4 @@
-import { PRINTER, TYPE } from "@util/main";
+import { PRINTER, TYPE } from "@util/tool";
 import { SAY } from "@src/print";
 
 const msg: TYPE = {msg: "Hello"}

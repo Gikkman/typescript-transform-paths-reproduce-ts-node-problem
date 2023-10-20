@@ -1,4 +1,4 @@
-import { TYPE, isType } from "@util/main"
+import { TYPE, isType } from "@util/tool"
 
 
 const t: TYPE = {
