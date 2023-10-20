@@ -1,0 +1,25 @@
+{
+  "name": "test-ts-path",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "pack-a",
+    "pack-b",
+    "core"
+  ],
+  "scripts": {
+    "prepare": "ts-patch install -s",
+    "build": "npm run -w pack-a -w pack-b build",
+    "dev:a": "npm -w pack-a run dev",
+    "dev:b": "npm -w pack-b run dev",
+    "start:a": "node build/pack-a/src/main.js",
+    "start:b": "node build/pack-a/src/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "typescript-transform-paths": "^3.4.6"
+  },
+  "dependencies": {
+    "ts-patch": "^3.0.2"
+  }
+}
