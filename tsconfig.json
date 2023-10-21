@@ -4,17 +4,12 @@
         "noFallthroughCasesInSwitch": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
-
-        "plugins": [
-            { "transform": "typescript-transform-paths" },
-            { "transform": "typescript-transform-paths", "afterDeclarations": true }
-        ],
     },
 
     "ts-node": {
         "transpileOnly": true,
         "require": [
-            "typescript-transform-paths/register"
+            "tsconfig-paths/register"
         ],
     },
 }
